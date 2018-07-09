@@ -4,7 +4,7 @@
  *********/
 #include <iostream>
 using namespace std;
-int fibonacci(int x);
+void fibonacci(int x);
 int main(){
 	int x;
 	cout<<"How many fibonacci numbers would you like to display?"<<endl;
@@ -12,7 +12,7 @@ int main(){
 	fibonacci(x);
 	return 0;
 }
-int fibonacci(int x){
+void fibonacci(int x){
 	int a=0;
 	int b=1;
 	int counter=0;
